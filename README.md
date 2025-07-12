@@ -2,7 +2,6 @@
 1 ページで論文を批判的吟味できる LLM 用テンプレート  
 – *Human‑in‑the‑loop & Open Source since 2025‑07‑12*
 
----
 
 ## 🔑 特長
 | 機能 | 目的 |
@@ -60,11 +59,20 @@ Semantic Versioning 1.0.0
 ---
 
 ## 🚀 クイックスタート
-1. ChatGPT‑4o (2025‑07‑12 build) など LLM を開く  
-2. `prompt_v7.3_JP.txt` または `prompt_v7.3_EN.txt` を **全文コピー**  
+1. ChatGPT‑o3 (2025‑07‑12 build) など LLM を開く  
+2. `prompt_JP.txt` または `prompt_EN.txt` を **全文コピー**  
 3. 末尾に〈論文全文〉か〈DOI/PMID〉を貼り送信  
 4. 3 行サマリーを確認 → 深掘りは `Deep`/`詳細` と入力  
 5. 出力はドラフト。必ず医師が確認し臨床適用すること
+
+---
+
+### 📄 ダウンロード  
+- 日本語版テンプレ → [prompt_JP.txt](prompt_JP.txt)  
+- English template  → [prompt_EN.txt](prompt_EN.txt)
+
+---
+
 
 ---
 
