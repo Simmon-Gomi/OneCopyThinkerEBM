@@ -1,4 +1,4 @@
-# EBM‑Appraisal Prompt 🇯🇵/EN
+# EBM‑Appraisal Prompt JP/EN
 1 ページで論文を批判的吟味できる LLM 用テンプレート  
 – *Human‑in‑the‑loop & Open Source since 2025‑07‑12*
 
