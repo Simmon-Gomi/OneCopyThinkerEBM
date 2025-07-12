@@ -1,4 +1,4 @@
-# EBM‑Appraisal Prompt v7.3.1 🇯🇵/🇬🇧
+# EBM‑Appraisal Prompt 🇯🇵/EN
 1 ページで論文を批判的吟味できる LLM 用テンプレート  
 – *Human‑in‑the‑loop & Open Source since 2025‑07‑12*
 
@@ -53,7 +53,7 @@
 ---
 
 ## 🛠️ バージョン管理
-Semantic Versioning 2.0.0  
+Semantic Versioning 1.0.0  
 - MAJOR = 互換性崩壊、MINOR = 機能追加、PATCH = バグ修正  
 → 詳細は `CHANGELOG.md`
 
