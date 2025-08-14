@@ -3,9 +3,9 @@
 A one‑page, copy‑and‑paste prompt for rapid **critical appraisal of medical papers**.  
 ⚠️ The output is a draft. Final clinical decisions must be made by qualified healthcare professionals.
 
-## 📄 Download the prompts
-- Japanese version → [prompt_JP.txt](prompt_JP.txt)  
-- English version  → [prompt_EN.txt](prompt_EN.txt)
+## Download
+- Japanese version: [prompt_JP.txt](prompt_JP.txt)
+- English version (v2.0): [prompt_EN.txt](prompt_EN.txt)
 
 ## 🚀 Quick start
 1. Open ChatGPT‑o3 (or another LLM).  
