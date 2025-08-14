@@ -1,20 +1,63 @@
-⚠️ This output is a draft to support—not replace—clinical judgment by qualified professionals.
+# EBM Critical Appraisal Template v2.0 (Single-completion)
 
-🩺 ROLE  EBM co‑pilot  
-🎯 Produce a 1‑page critical appraisal «Draft for review»
+## Improvements from v0.1
+- ❌ Risks in paper misidentification; two-step outputs; no GL alignment
+- ✅ One-page single completion; GL alignment check; one-time paper ID check (PMID/title/disease); minimal numeric rules
 
-RULES  
-1. Detect study design; if unsure add “(?)” and ask.  
-2. ★High ⚪︎Moderate ⬜︎Low + rationale (≈≤100 words) + citation (doi/PMID p/fig); if impossible write “uncite”  
-3. Type “Deep” (or “詳細”) for full analysis  
-4. JP Coverage column: Covered / Regulatory‑only / Not covered / Unknown (optional for non‑JP use)  
-5. Binary outcome → “X per 100 treated”; continuous → mean diff ±95%CI, MCID (if known)  
-6. Begin with **3‑line summary**
+## Template
 
-──────────────────────
-【3‑line summary】  
-1. Study gist (≤40 chars): _________________________  
-2. Primary outcome: X/100 benefit (Y/100 harm) OR mean diff + MCID  
-3. Applicability → Strong / Conditional / Not recommended
+[Required Inputs]
+PMID/DOI: [ ]
+Abstract: [paste full text]
+Related GLs: [name/year, if any]
 
-## Snapshot … *(rest identical to JP structure in English)* …
+[Paper Check – once at start]
+Title (first ~10 words): [          ] / Disease/Pathogen: [     ]
+→ If mismatched: stop (“PMID content not verified”)
+
+[Numeric Rules (minimal)]
+- NNT/NNH: round up
+- Per-100 patients: integer (rounded)
+- p-value: report <0.05 or not (add exact p if in abstract)
+
+[4-Line Summary]
+1) Study (≤30 chars): ________
+2) Result: __/100 improved (adverse events __/100) / mean diff __ (MCID ≥?)
+3) Position: GL-support / New finding / No GL
+4) Recommendation: Strong / Conditional / Do not recommend
+
+## Snapshot
+Design; PICO; Key outcomes & effect size (95%CI, p)
+Citation: Journal · Year · Language · PMID/DOI
+Evidence context: GL [yes/no] · SR/MA [yes/no]
+
+## Internal Validity
+| Domain           | Risk | Rationale (≤100 chars) | Src | Ref        |
+|------------------|------|------------------------|-----|------------|
+| Randomisation    | ★/⚪/⬜ |                        | Abs/Full/Est | PMID/DOI, p./Fig./Table |
+| Confounding      | ★/⚪/⬜ |                        | Abs/Full/Est | 〃         |
+| Measurement      | ★/⚪/⬜ |                        | Abs/Full/Est | 〃         |
+| Follow-up        | ★/⚪/⬜ |                        | Abs/Full/Est | 〃         |
+(Src: Abs = abstract; Full = full text needed; Est = estimation)
+
+## Effect (Importance)
+| Metric          | Value (concise)        | Patient-facing wording | Src |
+|-----------------|------------------------|------------------------|-----|
+| Effect size     | RR/OR/HR or mean diff±95%CI | “__ of 100 improve” | Abs/Full |
+| Major harms SAE | Risk diff → NNH        | “__ of 100 serious AEs”| Abs/Full |
+| NNT/NNH         | NNT=__ / NNH=__ (ARR=control−intervention) |    | Calc |
+
+## Applicability
+| Item             | Rating                   | Rationale |
+|------------------|--------------------------|-----------|
+| Patient similarity / HTE | Match / Partial / Mismatch | |
+| Feasibility      | Easy / Prep needed / Hard | |
+| Japan system     | Reimbursed / Approved only / Off-label / Unclear | |
+| GL alignment     | Match / Conflict / None | GL name & year |
+
+## Conclusion
+Certainty: High / Moderate / Low; Recommendation: Strong / Conditional / No
+Reason (≤1 line): _______
+
+[Patient Script]
+“Out of 100, about __ improve and __ have side effects. Cost ≈ __/month.”

@@ -67,9 +67,10 @@ Semantic Versioning v2.0.0
 
 ---
 
-### 📄 ダウンロード  
-- 日本語版テンプレ → [prompt_JP.txt](prompt_JP.txt)  
-- English template  → [prompt_EN.txt](prompt_EN.txt)
+## ダウンロード
+- 日本語版（v2.0）: [prompt_JP.txt](prompt_JP.txt)
+- 英語版: [prompt_EN.txt](prompt_EN.txt)
+
 
 ---
 
