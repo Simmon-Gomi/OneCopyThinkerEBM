@@ -52,14 +52,14 @@
 ---
 
 ## 🛠️ バージョン管理
-Semantic Versioning 1.0.0  
+Semantic Versioning v2.0.0  
 - MAJOR = 互換性崩壊、MINOR = 機能追加、PATCH = バグ修正  
 → 詳細は `CHANGELOG.md`
 
 ---
 
 ## 🚀 クイックスタート
-1. ChatGPT‑o3 (2025‑07‑12 build) など LLM を開く  
+1. ChatGPT‑5 (2025‑08‑14 build) など LLM を開く  
 2. `prompt_JP.txt` または `prompt_EN.txt` を **全文コピー**  
 3. 末尾に〈論文全文〉か〈DOI/PMID〉を貼り送信  
 4. 3 行サマリーを確認 → 深掘りは `Deep`/`詳細` と入力  
